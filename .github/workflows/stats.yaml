@@ -14,7 +14,7 @@ jobs:
       - name: Run pull request stats
         uses: flowwer-dev/pull-request-stats@master
         with:
-          period: 0
+          period: 30
           charts: true
           disableLinks: true
  
